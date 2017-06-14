@@ -1,0 +1,56 @@
+
+/*************************
+**Contact Info Strip CSS**
+**************************/
+
+.contact-info-wrapper {
+  background: none repeat scroll 0 0 #F0F0E9;
+}
+
+.contact-info ul li:first-child{
+    margin-left: -15px;
+}
+
+.contact-info ul li a,
+.contact-info ul li a:hover{
+  font-size: 11px;
+  /*color: #696763;*/
+  font-family: 'Roboto', sans-serif;
+}
+
+.social-icons ul li{
+	display:inline-block;
+}
+
+.social-icons ul li a {
+  border: 0 none;
+  border-radius: 0;
+  color: #696763;
+  padding:0px;
+}
+
+.social-icons ul li a i {
+  padding: 9px 15px 12px 15px;
+   transition: all 0.9s ease 0s;
+  -moz-transition: all 0.9s ease 0s;
+  -webkit-transition: all 0.9s ease 0s;
+  -o-transition: all 0.9s ease 0s;
+}
+
+.social-icons ul li a i:hover{
+  color: #fff;
+   /*transition: all 0.9s ease 0s;
+  -moz-transition: all 0.9s ease 0s;
+  -webkit-transition: all 0.9s ease 0s;
+  -o-transition: all 0.9s ease 0s;*/
+}
+
+.fa-facebook:hover {
+  /*background: #0083C9;*/
+  background: #fff;
+}
+
+.fa-instagram:hover  {
+	/*background:#90C9DC;*/
+    background: #fff;
+}

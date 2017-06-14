@@ -10,28 +10,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/bootstrap/bootstrapv3.3.6.min.css">
-    <link rel="stylesheet" href="css/bootstrap/bootstrap.theme.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/prettyPhoto.css">
-    <link rel="stylesheet" href="css/slider.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="static/vendor/misc/css/normalize.css">
+    <link rel="stylesheet" href="static/vendor/bootstrap/css/bootstrapv3.3.6.min.css">
+    <link rel="stylesheet" href="static/vendor/misc/css/animate.css">
+    <link rel="stylesheet" href="static/vendor/font-awesome/font-awesome.min.css">
+    <link rel="stylesheet" href="static/vendor/themify/themify-icons.css">
 
-    <link rel="stylesheet" type="text/css" href="css/masonry/default.css" />
-    <link rel="stylesheet" type="text/css" href="css/masonry/component.css" />
+    <!-- homepage masonry -->
+    <link rel="stylesheet" type="text/css" href="static/vendor/masonry/css/component.css" />
 
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/color.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" type="text/css" href="css/blog.css" />
+    <link rel="stylesheet" href="static/app.css">
+    <link rel="stylesheet" href="static/vendor/adwalah/css/header.css">
+    <link rel="stylesheet" href="static/vendor/adwalah/css/social.css">
+    <link rel="stylesheet" href="static/vendor/adwalah/css/color.css">
+    <link rel="stylesheet" href="static/vendor/adwalah/css/responsive.css">
 
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/masonry/modernizr.custom.js"></script>
+    <script src="static/vendor/jquery/jquery.js"></script>
+    <script src="static/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="static/vendor/masonry/js/modernizr.custom.js"></script>
 
     <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -169,9 +165,10 @@
 
                 <div class="collapse navbar-collapse navbar-mobile" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-center line-selector" style="text-transform: capitalize !important;">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="our_story.html">Our Story</a></li>
                         <li><a href="#">Collection</a></li>
+                        <li><a href="#">Shop</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
@@ -184,20 +181,21 @@
     
     <section class="landingpage-grid">
         <ul class="grid effect-2" id="grid">
-            <li><div href=""><img src="images/collection/12.png"></div></li>
-            <li><div href=""><img src="images/collection/13.png"></div></li>
-            <li><div href=""><img src="images/collection/10.png"></div></li>
-            <li><div href=""><img src="images/collection/11.png"></div></li>
-            <li><div href=""><img src="images/collection/2.jpg"></div></li>
-            <li><div href=""><img src="images/collection/14.png"></div></li>
-            <li><div href=""><img src="images/collection/1.jpg"></div></li>
-            <li><div href=""><img src="images/collection/3.jpg"></div></li>
-            <li><div href=""><img src="images/collection/4.jpg"></div></li>
-            <li><div href=""><img src="images/collection/5.jpg"></div></li>
-            <li><div href=""><img src="images/collection/6.jpg"></div></li>
-            <li><div href=""><img src="images/collection/7.jpg"></div></li>
-            <li><div href=""><img src="images/collection/8.jpg"> </div></li>
-            <li><div href=""><img src="images/collection/9.jpg"></div></li>
+            <li><div href=""><img src="static/images/collection/12.png"></div></li>
+            <li><div href=""><img src="static/images/collection/13.png"></div></li>
+            <li><div href=""><img src="static/images/collection/10.png"></div></li>
+            <li><div href=""><img src="static/images/collection/11.png"></div></li>
+            <li><div href=""><img src="static/images/collection/14.png"></div></li>
+            <li><div href=""><img src="static/images/collection/1.jpg"></div></li>
+            <li><div href=""><img src="static/images/collection/2.jpg"></div></li>
+            <li><div href=""><img src="static/images/collection/3.jpg"></div></li>
+            <li><div href=""><img src="static/images/collection/4.jpg"></div></li>
+            <li><div href=""><img src="static/images/collection/5.jpg"></div></li>
+            <li><div href=""><img src="static/images/collection/6.jpg"></div></li>
+            <li><div href=""><img src="static/images/collection/7.jpg"></div></li>
+            <li><div href=""><img src="static/images/collection/8.jpg"></div></li>
+            <li><div href=""><img src="static/images/collection/9.jpg"></div></li>
+            <li><div href=""><img src="static/images/collection/10.jpg"></div></li>
         </ul>
     </section>
     <!-- Start of footer -->
@@ -227,10 +225,10 @@
         </div>
     </div>
     </section>
-    <script src="js/masonry/masonry.pkgd.min.js"></script>
-    <script src="js/masonry/imagesloaded.js"></script>
-    <script src="js/masonry/classie.js"></script>
-    <script src="js/masonry/AnimOnScroll.js"></script>
+    <script src="static/vendor/masonry/js/masonry.pkgd.min.js"></script>
+    <script src="static/vendor/masonry/js/imagesloaded.js"></script>
+    <script src="static/vendor/masonry/js/classie.js"></script>
+    <script src="static/vendor/masonry/js/AnimOnScroll.js"></script>
     <script>
         new AnimOnScroll( document.getElementById('grid'), {
             minDuration : 0.4,
